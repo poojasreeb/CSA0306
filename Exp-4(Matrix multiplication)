@@ -23,7 +23,6 @@ int main() {
         for (int j = 0; j < c2; j++)
             scanf("%d", &b[i][j]);
 
-    // Initialize result matrix
     for (int i = 0; i < r1; i++)
         for (int j = 0; j < c2; j++) {
             c[i][j] = 0;
